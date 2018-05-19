@@ -5,9 +5,9 @@ Created on Tue Jan 30 10:56:58 2018
 @author: Alexis Martin
 """
 import numpy as np
-from core_algorithm.ElPrincGraph import ElPrincGraph
-from core_algorithm.MakeUniformElasticMatrix import MakeUniformElasticMatrix
-import PCAView as PCAV
+from .core_algorithm.ElPrincGraph import ElPrincGraph
+from .core_algorithm.MakeUniformElasticMatrix import MakeUniformElasticMatrix
+from . import PCAView as PCAV
 
 
 #def PCA(data):

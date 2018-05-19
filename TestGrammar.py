@@ -6,10 +6,10 @@ Created on Fri Jan 19 15:43:23 2018
 """
 
 import numpy as np
-from test_code.TestData import graph
-from core_algorithm.ElPrincGraph import ElPrincGraph
-from computeElasticPrincipalCircle import computeElasticPrincipalCircle as cEPC
-from computeElasticPrincipalGraph import computeElasticPrincipalGraph as cEPG
+from .test_code.TestData import graph
+from .core_algorithm.ElPrincGraph import ElPrincGraph
+from .computeElasticPrincipalCircle import computeElasticPrincipalCircle as cEPC
+from .computeElasticPrincipalGraph import computeElasticPrincipalGraph as cEPG
 import matplotlib.pyplot as plt
 import PCAView as PCAV
 # import scipy as sp

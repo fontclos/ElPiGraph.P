@@ -5,8 +5,8 @@ Created on Mon Jan  8 13:52:31 2018
 @author: Alexis Martin
 """
 import numpy as np
-import core_algorithm.ComputePrimitiveGraphElasticEnergy as CG
-from core_algorithm.PartitionData import PartitionData
+from . import ComputePrimitiveGraphElasticEnergy as CG
+from .PartitionData import PartitionData
 
 
 # This is the core function for fitting a primitive elastic graph to the data
